@@ -1,0 +1,111 @@
+@font-face{
+    font-family: 'Norse';
+    src: url('Norse.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Norse';
+    src: url('Norsebold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+.left-side{
+    background-image: url('6a146571-9237-4717-b020-f2e4c5477040 2.JPG') ;
+    width: 700px;
+    height: 1500px;
+    box-sizing: border-box;
+    padding-top: 360px;
+    
+}
+
+.right-side{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    flex: 1
+    
+}
+.middle{
+    width: 700px;
+    height: 400px;
+    box-sizing: border-box;
+    padding-left: 60px;
+    
+}
+.top, .bottom{
+    background-color: lightgray;
+    width: 700px;
+    height: 550px;
+    box-sizing: border-box;
+    padding-left: 60px;
+}
+.top{
+    padding-top: 330px;
+}
+.bottom{
+    padding-top: 40px;
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.box{
+    background-color: rgb(119, 119, 207);
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.holder{
+    display: flex;
+    flex-direction: row;
+}
+.form-left, .form-right{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.banner{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 100%;
+    width: auto;
+    opacity: 100%;
+}
+.banner p{
+    font-family: 'Norse', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 150px;
+    opacity: 100%;
+
+}
+h5{
+    text-align: center;
+    align-self: flex-end;
+    color: white;
+}
+form{
+    display: flex;
+    gap: 20px;
+}
