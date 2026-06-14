@@ -15,30 +15,32 @@
 .left-side{
     background-image: url('6a146571-9237-4717-b020-f2e4c5477040 2.JPG') ;
     width: 700px;
-    height: 1500px;
+    height: 100vh;
     box-sizing: border-box;
     padding-top: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
 
 .right-side{
     width: 100%;
-    height: 1500px;
     display: flex;
     flex-direction: column;
     flex: 1
     
 }
 .middle{
-    width: 700px;
+    width: 100%;
     height: 400px;
     box-sizing: border-box;
     padding-left: 60px;
     
 }
 .top, .bottom{
-    background-color: lightgray;
-    width: 700px;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
     height: 550px;
     box-sizing: border-box;
     padding-left: 60px;
@@ -102,10 +104,27 @@ img{
 }
 h5{
     text-align: center;
-    align-self: flex-end;
     color: white;
 }
 form{
     display: flex;
-    gap: 20px;
+    gap: 50px;
+}
+
+p, h2, h3, b{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+}
+
+input:user-invalid{
+    border-color: red;
+}
+input:user-valid{
+    border-color: green
+}
+input:focus{
+    border-color: blue;
+    box-shadow: 0px 0px 5px black;
 }

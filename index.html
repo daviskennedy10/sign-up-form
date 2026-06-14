@@ -25,20 +25,20 @@
             <div class="holder">
                 <form action="example.com/path" method="post">
                     <div class="form-left">
-                        <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="firstname">
-                        <label for="email">EMAIL</label>
+                        <label for="first_name"><b>*FIRST NAME</b></label>
+                        <input type="text" id="first_name" name="firstname" minlength="2" required>
+                        <label for="email"><b>EMAIL</b></label>
                         <input type="email" id="email" name="email">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
+                        <label for="password"><b>*PASSWORD</b></label>
+                        <input type="password" id="password" name="password" minlength="2"  required>
                     </div>
                     <div class="form-right">
-                        <label for="last_name">LAST NAME</label>
+                        <label for="last_name"><b>LAST NAME</b></label>
                         <input type="text" id="last_name" name="firstname">
-                        <label for="phone">PHONE NUMBER</label>
+                        <label for="phone"><b>PHONE NUMBER</b></label>
                         <input type="number" id="phone" name="phone">
-                        <label for="confrim_password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm-password" name="conf-password">
+                        <label for="confrim_password"><b>*CONFIRM PASSWORD</b></label>
+                        <input type="password" id="confirm-password" name="conf-password" minlength="2"  required>
                     </div>
             </div>
             </form>
